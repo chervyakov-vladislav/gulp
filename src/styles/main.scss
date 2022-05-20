@@ -1,0 +1,17 @@
+//variables
+$variable-1: 20px;
+
+//fonts
+$basefont: Arial;
+
+//z-index
+$z-index: 1;
+
+//colors
+$white: #fff;
+
+//setups
+@import "_misc/*.scss";
+
+//layout
+@import "blocks/*.scss";

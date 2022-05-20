@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+		font-family: $basefont;
+    line-height: 1.42;
+    position: relative;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+//если закомменчено, значит вынесено в другой блок для наглядной реализации функционала
+// .wrapper {
+//     position: relative;
+//     width: 100%;
+//     // min-width: 940px + 20px;
+//     min-height: 100%;
+//     overflow: hidden;
+// }
+
+.container {
+		width: 98%;
+    max-width: 940px;
+    // padding: 0 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+		position: relative;
+  }
+
+h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    li {
+        list-style: none;
+     }
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+		color: inherit;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none; margin: 0px;
+        }
